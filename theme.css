@@ -1,0 +1,75 @@
+/* Copyright 2020 Scott Dupasquier
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+*/
+
+body {font-family: Georgia, 'Times New Roman', Times, serif;}
+
+.adjust {margin-left: 5%;
+    margin-right: 28%;}
+
+.details {font-size: 90%;
+    margin-bottom: 45px;
+    margin-top: 5px;}
+
+h1 {text-align: center;
+    position: relative;
+    height: 200px;
+    background-color: #0d62ff;
+    line-height: 200px;
+    font-size: 300%;
+    color: #ffffff;
+    margin-bottom: 0px;
+    margin-top: 0px;}
+
+h3 {color: #0d62ff;
+    margin-bottom: 10px;}
+
+h4 {margin-bottom: 0px;
+    font-style: italic;}
+
+h5 {margin-top: 0px;
+    margin-bottom: 25px;
+    font-size: 175%;}
+
+img {width: 136px;
+    height: 181px;
+    float: right;
+    margin-right: 18%;
+    margin-top: 10px;}
+
+ul {list-style-type: none;
+    background-color: #3f3f3f;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;}
+
+li {display: inline-block;
+    padding: 20px;}
+
+a  {color: #ffffff;
+    font-size: 120%;
+    text-decoration: none;}
+
+a.active {color: #000000;}
+
+a:hover {color: #0d62ff;}
+
+p {font-size: 110%;}
+
+.sidebar {float: right;
+    background-color: #cecece;
+    width: 20%;
+    text-align: center;
+    margin-right: 5%;}
