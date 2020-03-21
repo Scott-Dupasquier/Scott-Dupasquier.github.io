@@ -13,14 +13,18 @@
    limitations under the License.
 */
 
-body {font-family: Georgia, 'Times New Roman', Times, serif;}
+body {background-image:url('images/jungle.jpg');
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 .adjust {margin-left: 5%;
-    margin-right: 28%;}
+    margin-right: 28%;
+}
 
 .details {font-size: 90%;
     margin-bottom: 45px;
-    margin-top: 5px;}
+    margin-top: 5px;
+}
 
 h1 {text-align: center;
     position: relative;
@@ -30,46 +34,77 @@ h1 {text-align: center;
     font-size: 300%;
     color: #ffffff;
     margin-bottom: 0px;
-    margin-top: 0px;}
+    margin-top: 0px;
+}
 
-h3 {color: #0d62ff;
-    margin-bottom: 10px;}
-
-h4 {margin-bottom: 0px;
-    font-style: italic;}
-
-h5 {margin-top: 0px;
+h3 {margin-top: 0px;
     margin-bottom: 25px;
-    font-size: 175%;}
+    font-size: 175%;
+}
+
+h4 {color: #000000;
+    font-size: 110%;
+    margin-bottom: 1%;
+}
 
 img {width: 136px;
     height: 181px;
     float: right;
-    margin-right: 18%;
-    margin-top: 10px;}
+    margin-right: 20%;
+    margin-top: 10px;
+}
+
+/* https://css-tricks.com/perfect-full-page-background-image/ */
+img.bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+        
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+        
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: -1;
+}
 
 ul {list-style-type: none;
     background-color: #3f3f3f;
     color: #ffffff;
     margin: 0;
     padding: 0;
-    text-align: center;}
+    text-align: center;
+}
 
 li {display: inline-block;
-    padding: 20px;}
+    padding: 20px;
+}
 
 a  {color: #ffffff;
     font-size: 120%;
-    text-decoration: none;}
+    text-decoration: none;
+}
 
-a.active {color: #000000;}
+a:active {color: #0d62ff;}
 
 a:hover {color: #0d62ff;}
 
 p {font-size: 110%;}
 
-.sidebar {float: right;
-    background-color: #cecece;
-    width: 20%;
-    text-align: center;
-    margin-right: 5%;}
+p.funFact {font-size: 90%;
+    margin-top: 0%;
+}
+
+.textArea {background-color: #cecece;
+    margin: auto;
+    width: 50%;
+    text-align: left;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
