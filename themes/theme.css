@@ -17,15 +17,6 @@ body {background-image:url('images/jungle.jpg');
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.adjust {margin-left: 5%;
-    margin-right: 28%;
-}
-
-.details {font-size: 90%;
-    margin-bottom: 45px;
-    margin-top: 5px;
-}
-
 h1 {text-align: center;
     position: relative;
     height: 200px;
@@ -84,12 +75,15 @@ li {display: inline-block;
     padding: 20px;
 }
 
+li#selected {color: #0d62ff;
+    font-size: 120%;
+    background-color: #242424;
+}
+
 a  {color: #ffffff;
     font-size: 120%;
     text-decoration: none;
 }
-
-a:active {color: #0d62ff;}
 
 a:hover {color: #0d62ff;}
 
@@ -107,4 +101,6 @@ p.funFact {font-size: 90%;
     padding-top: 2%;
     padding-right: 2%;
     padding-bottom: 2%;
+    margin-bottom: 2%;
+    margin-top: 1%;
 }
