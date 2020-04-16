@@ -63,7 +63,7 @@ img.bg {
     z-index: -1;
 }
 
-ul {list-style-type: none;
+ul.navbar {list-style-type: none;
     background-color: #3f3f3f;
     color: #ffffff;
     margin: 0;
@@ -71,7 +71,7 @@ ul {list-style-type: none;
     text-align: center;
 }
 
-li {display: inline-block;
+li.navbar {display: inline-block;
     padding: 20px;
 }
 
@@ -80,7 +80,7 @@ li#selected {color: #0d62ff;
     background-color: #242424;
 }
 
-a  {color: #ffffff;
+a.internal {color: #ffffff;
     font-size: 120%;
     text-decoration: none;
 }
