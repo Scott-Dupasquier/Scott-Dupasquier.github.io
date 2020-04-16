@@ -89,6 +89,8 @@ a:hover {color: #0d62ff;}
 
 p {font-size: 110%;}
 
+p.important {font-style: italic;}
+
 p.funFact {font-size: 90%;
     margin-top: 0%;
 }
