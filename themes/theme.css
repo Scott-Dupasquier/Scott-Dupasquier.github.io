@@ -14,7 +14,7 @@
 */
 
 body {background-image:url('images/jungle.jpg');
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {text-align: center;
@@ -28,7 +28,7 @@ h1 {text-align: center;
     margin-top: 0px;
 }
 
-h3 {margin-top: 0px;
+h2 {margin-top: 0px;
     margin-bottom: 25px;
     font-size: 175%;
 }
@@ -38,7 +38,7 @@ h4 {color: #000000;
     margin-bottom: 1%;
 }
 
-img {width: 136px;
+img#me {width: 136px;
     height: 181px;
     float: right;
     margin-right: 20%;
@@ -61,6 +61,22 @@ img.bg {
     left: 0;
 
     z-index: -1;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+img.threeq {
+    max-width: 75%;
+    max-height: auto;
+}
+
+img.oneq {
+    max-width: 20%;
+    max-height: auto;
+    float: right;
 }
 
 ul.navbar {list-style-type: none;
